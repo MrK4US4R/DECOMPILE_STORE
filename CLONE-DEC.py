@@ -1,4 +1,4 @@
-#Dec by Mr Jadugar The Gamer
+#Decompiled By Hamid Meer
 
 #coding=utf-8
 

