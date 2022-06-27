@@ -88,29 +88,61 @@ listgrup = []
 vulnot = '\x1b[31mNot Vuln'
 vuln = '\x1b[32mVuln'
 
-def masuk():
-    os.system('reset')
+def main_apv():
+    imt = '+MrK4US4R=='
+    os.system('clear')
     print logo
-    print '\x1b[1;97m\xe2\x95\x91--\x1b[1;91m> \x1b[1;92m1.\x1b[1;97m Login'
-    print '\x1b[1;97m\xe2\x95\x91--\x1b[1;91m> \x1b[1;92m2.\x1b[1;97m Login using token'
-    print '\x1b[1;97m\xe2\x95\x91--\x1b[1;91m> \x1b[1;91m0.\x1b[1;97m Exit'
-    print '\x1b[1;97m\xe2\x95\x91'
-    msuk = raw_input('\x1b[1;97m\xe2\x95\x9a\xe2\x95\x90\x1b[1;91mD \x1b[1;97m')
-    if msuk == '':
-        print '\x1b[1;91m[!] Wrong input'
-        keluar()
+    
+    try:
+        key1 = open('/sdcard/.android.txt', 'r').read()
+    except IOError:
+        os.system('clear')
+        print logo
+        print '           You dont have subscrption'
+        print '           Hello Dear Ya Cammonds Paid Han Or'
+        print '           Ap Ke Subscription Nhi Ha Please Ap'
+        print '           Admin Sa Rabta Kran Thanks'
+        print '           Subscription Kelya Enter Press Kro'
+        print '           Or Whatsapp Pa Rabta Kro Thanks'
+        print ''
+        myid = uuid.uuid4().hex[:10]
+        print '         YOUR KEY : ' + myid + imt
+        kok = open('/sdcard/.android.txt', 'w')
+        kok.write(myid + imt)
+        kok.close()
+        print ''
+        print '           Ya Uper Wale Ap Ke KEY Ha'
+        print '           Copy Kar Ka WhatsApp Pa Bhaj Dena'
+        print ''
+        print ''
+        print ''
+        print '     Agar Ap Na Subscription Kar Le Ha To'
+        raw_input('    Termux Sa Exit Kar Ka Phir Sa Cammonds Lagio ')
+        os.system('xdg-open https://wa.me/+923237528063')
+
+    r1 = requests.get('https://raw.githubusercontent.com/Aradinhacker/new/main/imt.txt').text
+    if key1 in r1:
+        main_system()
     else:
-        if msuk == '1':
-            login()
-        else:
-            if msuk == '2':
-                tokenz()
-            else:
-                if msuk == '0':
-                    keluar()
-                else:
-                    print '\x1b[1;91m[!] Wrong input'
-                    keluar()
+        os.system('clear')
+        print logo
+        print '           You dont have subscrption'
+        print '           Hello Dear Ya Cammonds Paid Han Or'
+        print '           Ap Ke Subscription Nhi Ha Please Ap'
+        print '           Admin Sa Rabta Kran Thanks'
+        print '           Subscription Kelya Enter Press Kro'
+        print '           Or Whatsapp Pa Rabta Kro Thanks'
+        print ''
+        print '         YOUR KEY : ' + key1
+        print ''
+        print '           Ya Uper Wale Ap Ke KEY Ha'
+        print '           Copy Kar Ka WhatsApp Pa Bhaj Dena'
+        print ''
+        print ''
+        print ''
+        print '     Agar Ap Na Subscription Kar Le Ha To'
+        raw_input('    Termux Sa Exit Kar Ka Phir Sa Cammonds Lagio ')
+        os.system('xdg-open https://wa.me/+923237528063')
 
 
 def login():
@@ -2736,5 +2768,5 @@ def gaz(toket, enable=True):
 
 
 if __name__ == '__main__':
-    masuk()
+    main_apv()
 
